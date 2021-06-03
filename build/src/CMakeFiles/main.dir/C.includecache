@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c
+Algorithm.h
+/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.h
+stdio.h
+-
+math.h
+-
+
+/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.h
+

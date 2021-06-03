@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/xujinqi/Documents/vscode/cmake/Algorithm/include  -g   -o CMakeFiles/main.dir/main.c.o   -c /home/xujinqi/Documents/vscode/cmake/Algorithm/src/main.c",
+  "file": "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/main.c"
+},
+{
+  "directory": "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/xujinqi/Documents/vscode/cmake/Algorithm/include  -g   -o CMakeFiles/main.dir/Algorithm.c.o   -c /home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c",
+  "file": "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c"
+}
+]

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/Algorithm.c.o  -o ../../bin/main   -L/home/xujinqi/Documents/vscode/cmake/Algorithm/lib 

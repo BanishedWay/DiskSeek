@@ -1,0 +1,5 @@
+/home/xujinqi/Documents/vscode/cmake/Algorithm/build/CMakeFiles/rebuild_cache.dir
+/home/xujinqi/Documents/vscode/cmake/Algorithm/build/CMakeFiles/edit_cache.dir
+/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/rebuild_cache.dir
+/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/edit_cache.dir
+/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/main.dir
