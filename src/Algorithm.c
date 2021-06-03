@@ -31,7 +31,6 @@ void SCAN(int array_Track[], int m)
 void CSCAN(int array_Track[], int m)
 {
 }
-
 void FSCAN(int array_Track[], int m)
 {
 }
