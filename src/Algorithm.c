@@ -3,6 +3,18 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+void initRandomArray(int *array, int m)
+{
+    srand((unsigned)time(0));
+
+    for (int i = 0; i < m; i++)
+    {
+        array[i] = rand() % 180 + 20;
+    }
+}
 
 void FCFS(int array_Track[], int m)
 {
@@ -42,14 +54,7 @@ void SSTF(int array_Track[], int m)
             }
             else
             {
-                if (cur < array_Track[i])
-                {
-                    Track[i] = array_Track[i] - cur;
-                }
-                else
-                {
-                    Track[i] = cur - array_Track[i];
-                }
+                Track[i] = abs(array_Track[i] - cur);
             }
         }
         min = 200;
@@ -71,18 +76,17 @@ void SSTF(int array_Track[], int m)
         Disk[Dcount++] = cur;
         sum += Track[minj];
         Track[minj] = -1;
-        printf("%d\n", sum);
     }
     avg = sum / m;
     printf("寻道序列：\n");
     for (i = 0; i < m; i++)
         printf("%d ", Disk[i]);
-    printf("\n平均寻道长度：\n", avg);
+    printf("\n平均寻道长度：%.2f\n", avg);
 }
 
 void SCAN(int array_Track[], int m)
 {
-    int i, j, k, r = 0, l = 0, cur, count;
+    int i, j, k = 0, r = 0, l = 0, cur, count;
     int temp[MaxTrack];
     float sum = 0, avg = 0;
     printf("请输入当前磁道号：\n");
@@ -100,7 +104,7 @@ void SCAN(int array_Track[], int m)
     r = k;
     printf("请输入移动臂移动方向：\n1：磁道号增加方向\n2：磁道号减小方向\n");
     scanf("%d", &count);
-    if (count == 1)
+    if (count == 2)
     {
         printf("磁道访问序列：\n");
         for (j = l; j >= 0; j--)
@@ -111,7 +115,7 @@ void SCAN(int array_Track[], int m)
         {
             printf("%d ", temp[j]);
         }
-        sum = cur - 2 * temp[0] + temp[m - 1];
+        sum = abs(cur - 2 * temp[0] + temp[m - 1]);
     }
     else
     {
@@ -124,7 +128,7 @@ void SCAN(int array_Track[], int m)
         {
             printf("%d ", temp[j]);
         }
-        sum = cur - temp[0] + 2 * temp[m - 1];
+        sum = abs(cur - temp[0] + 2 * temp[m - 1]);
     }
     avg = sum / m;
     printf("\n平均寻道长度：%.3f\n", avg);
@@ -158,14 +162,14 @@ void CSCAN(int array_Track[], int m)
         printf("%d ", temp[j]);
     }
 
-    sum = 2 * temp[m - 1] + temp[l] - cur - 2 * temp[0];
+    sum = abs(2 * temp[m - 1] + temp[l] - cur - 2 * temp[0]);
     avg = sum / m;
     printf("\n平均寻道长度：%.3f\n", avg);
 }
 void FSCAN(int array_Track[], int m)
 {
     int i, j, k, cur;
-    float sum, avg;
+    float sum = 0, avg = 0;
     int temp1[MaxTrack], temp2[MaxTrack];
     for (i = 0; i < m / 2; i++)
         temp1[i] = array_Track[i];
@@ -187,6 +191,7 @@ void FSCAN(int array_Track[], int m)
         sum += abs(temp1[j + 1] - temp1[j]);
         printf("%d ", temp1[j + 1]);
     }
+    printf("%d ", temp1[0]);
     for (j = 0; j < k - 1; j++)
     {
         sum += abs(temp1[j + 1] - temp1[j]);

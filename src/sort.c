@@ -6,7 +6,7 @@ void sort(int aray[], int m)
     while ((m > 1) && flag)
     {
         flag = 0;
-        for (int i = 1; i < m; i++)
+        for (int i = 0; i < m - 1; i++)
         {
             if (aray[i] > aray[i + 1])
             {

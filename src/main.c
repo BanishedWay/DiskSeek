@@ -10,11 +10,10 @@ int main()
     int num_Track;
     printf("请输入磁盘调度序列数目：\n");
     scanf("%d", &num_Track);
-    printf("请分别输入磁盘调度序列：\n");
+    initRandomArray(array_Track, num_Track);
     for (int i = 0; i < num_Track; i++)
-    {
-        scanf("%d", &array_Track[i]);
-    }
+        printf("%d ", array_Track[i]);
+    printf("\n");
     int flag = 0;
     do
     {

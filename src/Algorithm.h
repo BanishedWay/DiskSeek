@@ -3,6 +3,8 @@
 
 #define MaxTrack 105
 
+void initRandomArray(int *array, int m);
+
 void FCFS(int array_Track[], int m);
 
 void SSTF(int array_Track[], int m);
