@@ -1,1 +1,1 @@
-add_executable(main main.c Algorithm.h Algorithm.c)
+add_executable(main main.c Algorithm.h Algorithm.c sort.h sort.c)

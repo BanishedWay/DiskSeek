@@ -179,6 +179,33 @@ main.c.s:
 	cd /home/xujinqi/Documents/vscode/cmake/Algorithm/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+sort.o: sort.c.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.c.o:
+	cd /home/xujinqi/Documents/vscode/cmake/Algorithm/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sort.c.o
+.PHONY : sort.c.o
+
+sort.i: sort.c.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	cd /home/xujinqi/Documents/vscode/cmake/Algorithm/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	cd /home/xujinqi/Documents/vscode/cmake/Algorithm/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sort.c.s
+.PHONY : sort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +221,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 .PHONY : help
 
 
