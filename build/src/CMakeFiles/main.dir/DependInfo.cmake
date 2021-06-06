@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c" "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/main.dir/Algorithm.c.o"
   "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/main.c" "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/main.dir/main.c.o"
-  "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/sort.c" "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src/CMakeFiles/main.dir/sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

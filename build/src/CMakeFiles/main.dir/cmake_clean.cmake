@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "../../bin/main.pdb"
   "CMakeFiles/main.dir/Algorithm.c.o"
   "CMakeFiles/main.dir/main.c.o"
-  "CMakeFiles/main.dir/sort.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

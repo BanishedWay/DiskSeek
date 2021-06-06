@@ -6,23 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c
-Algorithm.h
-/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.h
-sort.h
-/home/xujinqi/Documents/vscode/cmake/Algorithm/src/sort.h
-stdio.h
--
-math.h
--
-string.h
--
-stdlib.h
--
-time.h
--
-
-/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.h
-
-/home/xujinqi/Documents/vscode/cmake/Algorithm/src/sort.h
-

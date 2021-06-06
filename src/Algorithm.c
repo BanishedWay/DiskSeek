@@ -1,5 +1,4 @@
 #include "Algorithm.h"
-#include "sort.h"
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
@@ -236,4 +235,24 @@ void FSCAN(int array_Track[], int m)
     }
     avg = sum / m;
     printf("\n平均寻道长度：%.3f\n\n", avg);
+}
+
+void sort(int aray[], int m)
+{
+    int temp, flag = 1;
+    while ((m > 1) && flag)
+    {
+        flag = 0;
+        for (int i = 0; i < m - 1; i++)
+        {
+            if (aray[i] > aray[i + 1])
+            {
+                temp = aray[i];
+                aray[i] = aray[i + 1];
+                aray[i + 1] = temp;
+                flag = 1;
+            }
+        }
+        m--;
+    }
 }

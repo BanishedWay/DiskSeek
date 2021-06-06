@@ -8,10 +8,5 @@
   "directory": "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src",
   "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/xujinqi/Documents/vscode/cmake/Algorithm/include  -g   -o CMakeFiles/main.dir/Algorithm.c.o   -c /home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c",
   "file": "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/Algorithm.c"
-},
-{
-  "directory": "/home/xujinqi/Documents/vscode/cmake/Algorithm/build/src",
-  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/xujinqi/Documents/vscode/cmake/Algorithm/include  -g   -o CMakeFiles/main.dir/sort.c.o   -c /home/xujinqi/Documents/vscode/cmake/Algorithm/src/sort.c",
-  "file": "/home/xujinqi/Documents/vscode/cmake/Algorithm/src/sort.c"
 }
 ]

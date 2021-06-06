@@ -17,4 +17,6 @@ void CSCAN(int array_Track[], int m);
 
 void FSCAN(int array_Track[], int m);
 
+void sort(int aray[], int m);
+
 #endif //ALGORITHM_ALGORITHM_H
