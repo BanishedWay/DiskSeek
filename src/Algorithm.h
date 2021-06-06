@@ -5,6 +5,8 @@
 
 void initRandomArray(int *array, int m);
 
+void Print(int array_Track[], int m);
+
 void FCFS(int array_Track[], int m);
 
 void SSTF(int array_Track[], int m);
